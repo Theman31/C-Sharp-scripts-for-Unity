@@ -21,4 +21,5 @@ This is a basic boiler plate repository, containing scripts intended for game de
 both of these functions require Interactable after the class is declared, thus denoting their locations in the interaction function chain.
 
 
-### 
+### SignPostInteract
+- This script is also almost identical to PickUpItem and NPC, but requires ActionItem instead of Interactable in the function chain. As of right now, it is also just a Debug Log denoting when this object is interacted with.
